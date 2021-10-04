@@ -10,11 +10,11 @@ import Header from './components/Header.vue'
 export default {
   name: 'App',
   components: {
-    Header
+    Header,
   }
 }
 </script>
 
 <style lang="scss">
-@import "@style/generals"
+@import "@/style/generals"
 </style>

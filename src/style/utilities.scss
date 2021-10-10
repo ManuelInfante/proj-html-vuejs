@@ -36,6 +36,15 @@
     align-items: center;
 }
 
+.both-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
 
 
 
@@ -89,8 +98,44 @@
     text-align: center;;
 }
 
+.text-left{
+    text-align: left;
+}
+
 .text-uppercase{
     text-transform: uppercase;
 }
 
+.text-capitalize{
+    text-transform: capitalize;
+}
 
+.text-underline{
+    text-decoration: underline;
+}
+
+// TEXT COLORS
+
+.primary-text{
+    color: $primary;
+}
+.lightPrimary-text{
+    color: $lightPrimary;
+}
+.secondary-text{
+    color: $secondary;
+}
+.lightgray-text{
+    color: $lightgray;
+}
+.gray-text{
+    color: $gray;
+}
+
+.dirtywhite-text{
+    color: $dirtywhite;
+}
+
+.white-text{
+    color: $white;
+}

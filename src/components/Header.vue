@@ -17,7 +17,7 @@
             >
               <img :src="require(`@/assets/img/${link.img}`)" :alt="link.text">
 
-              <span>
+              <span class="$font-xs secondary-text">
                 {{link.text}}
               </span>
             </a>
@@ -96,11 +96,6 @@ nav{
           object-fit: cover;
           object-position: 0 0px;
           margin-bottom: 15px;
-        }
-
-        span{
-          color: $secondary;
-          font-size: $font-xs;
         }
       }
     }
